@@ -1,0 +1,5 @@
+nome = input("digite seu nome: ")
+arquivo = open("alunos.txt", "w")
+arquivo.write( nome + "\n")
+print('aluno cadastrado com sucesso!!')
+arquivo.close()
